@@ -24,7 +24,6 @@ class Cassette {
           tape.step()
         } catch(err) {
           console.error(err)
-          debugger
         }
       })
     }, config.frameDuration)
